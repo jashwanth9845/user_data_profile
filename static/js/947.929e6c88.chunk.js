@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkpanorbit_assignment=self.webpackChunkpanorbit_assignment||[]).push([[947],{947:function(n,e,t){t.r(e),t.d(e,{default:function(){return s}});t(791);var i={container:"css_container__3r2jZ"},r=t(184);function s(){return(0,r.jsx)("div",{className:i.container,children:"Coming Soon..."})}}}]);
+//# sourceMappingURL=947.929e6c88.chunk.js.map
