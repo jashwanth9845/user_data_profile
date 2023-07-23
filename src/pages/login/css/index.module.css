@@ -1,0 +1,134 @@
+.container {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  transition: all 0.2s ease;
+}
+.backgroundImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("/public/assets/svgs/login_bg.svg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+  transform: scaleY(-1);
+  z-index: -1;
+  transition: all 0.2s ease;
+}
+.accountsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: 100%;
+  margin: 1rem;
+  max-width: 550px;
+  max-height: 500px;
+  background-color: white;
+  border-radius: 1.5rem;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 0px 100px 0px;
+  overflow: hidden;
+  transition: all 0.2s ease;
+}
+.accountsContainer header {
+  display: flex;
+  width: 100%;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #545454;
+  height: max-content;
+  justify-content: center;
+  background: #f6f6f6;
+  padding: 2.2rem 0;
+  transition: all 0.2s ease;
+}
+.accountLists {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: -webkit-fill-available;
+  height: 100%;
+  margin: 8px;
+  overflow-y: auto;
+  transition: all 0.2s ease;
+}
+.accountLists::-webkit-scrollbar {
+  width: 6px;
+  transition: all 0.2s ease;
+}
+.accountLists::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background: #d8d8d8;
+  transition: all 0.2s ease;
+}
+.accountLists::-webkit-scrollbar-thumb:hover {
+  background: #898989;
+  transition: all 0.2s ease;
+}
+.accountLists::-webkit-scrollbar-track {
+  background: transparent;
+  transition: all 0.2s ease;
+}
+.account {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: inherit;
+  height: max-content;
+  gap: 1rem;
+  border-bottom: 1px solid #d5d5d5;
+  margin: 0px 1rem 4px 1rem;
+  padding: 5px 0.5rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.account:hover {
+  background-color: #d8d8d8;
+  border-radius: 5px;
+  margin: 6px 1rem;
+}
+.account:last-child {
+  border-bottom: none;
+  transition: all 0.2s ease;
+}
+.accountProfile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  margin: 7px 0;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0;
+  transition: all 0.2s ease;
+}
+.accountProfile > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 0.2s ease;
+}
+
+.accountUserName {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  font-size: 14px;
+  margin: 0;
+  font-weight: 500;
+  color: #4a4a4a;
+  transition: all 0.2s ease;
+}

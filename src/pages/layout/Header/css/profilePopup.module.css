@@ -1,0 +1,106 @@
+.conatiner {
+  position: absolute;
+  top: 40px;
+  right: 0;
+  width: 250px;
+  height: max-content;
+  background: white;
+  border-radius: 25px;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 0px 100px 0px;
+  overflow: hidden;
+  z-index: 9999;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: -webkit-fill-available;
+  padding: 2rem 1.2rem;
+}
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.profileImg {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.profileImg img {
+  width: 100%;
+  height: 100%;
+}
+.userData {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: inherit;
+  padding: 8px 0;
+}
+.username,
+.useremail {
+  margin: 0;
+  line-height: 1.5rem;
+  font-size: 0.9rem;
+  color: #a3a3a3;
+}
+.username {
+  font-weight: 500;
+  color: #717171;
+}
+
+.accountList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: inherit;
+}
+.accountDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 0.4rem;
+  padding: 0.4rem 0;
+  border-top: 1.5px solid #e6e6e6;
+  cursor: pointer;
+}
+.accountDiv .profileImg {
+  width: 30px;
+  height: 30px;
+}
+
+.accountDiv .username {
+  color: #8a8a8a;
+  font-size: 0.8rem;
+}
+
+.logout {
+  background-color: #d55151;
+  color: white;
+  width: 80px;
+  height: 30px;
+  border-radius: 18px;
+  overflow: hidden;
+  margin-top: 0.5rem;
+}
+.logout button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: transparent;
+  width: 100%;
+  height: 100%;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
